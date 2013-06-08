@@ -1,0 +1,44 @@
+body { 
+    font-family: Trebuchet, Verdana, Helvetica, sans-serif;
+    color: #333845;
+    background-image:url('../imgs/debut_dark.png');
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 5%;
+
+}
+.boxed {
+    background-color: white;
+    border: 3px solid black;
+    padding-right: 5%; 
+    padding-left: 5%;
+    padding-bottom: 7%;
+
+}
+/*Main Text Style*/
+div.main_text {
+    text-align: left;
+    font-size: 150%;
+}
+h1.name {
+    font-family: Trebuchet, Helvetica;
+    padding-top: 3%;
+    padding-left: 5%; 
+    padding-right: 5%; 
+
+    font-size: 450%;
+    font-weight: bold;
+    text-align: right;
+    color: black;
+}   
+hr {
+    border: none;
+    background-color: black;
+    color: black;
+    height: 3px;
+}
+
+/*Link Styles*/
+a:link {
+    color: #333845;
+}
