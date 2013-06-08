@@ -1,1 +1,1 @@
-web: gunicorn mysite.wsgi
+web: node web.js
