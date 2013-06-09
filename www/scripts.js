@@ -23,8 +23,8 @@ function contactclick() {
   var text = document.getElementById("main_text");
   text.innerHTML = "I'm all over the place. Find me at:<br><br><center>" + 
     "<a href='https://www.facebook.com/shilpa.balaji'>facebook</a><br>" +
-    "<a href='www.quora.com/Shilpa-Balaji'>quora</a><br>" +
-    "<a href='www.linkedin.com/in/shilpabalaji'>linkedin</a><br>" +
+    "<a href='http://www.quora.com/Shilpa-Balaji'>quora</a><br>" +
+    "<a href='http://www.linkedin.com/in/shilpabalaji'>linkedin</a><br>" +
     "<a href='https://github.com/shilpabalaji'>github</a><br>" + 
     "<a href='https://twitter.com/shilpabalaji'>twitter</a>"
      ;
