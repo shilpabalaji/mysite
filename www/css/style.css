@@ -15,27 +15,44 @@ body {
     padding-bottom: 7%;
 }
 /*Main Text Style*/
-.main_text {
+#main_text {
+    padding-top: 5%;
     text-align: left;
     font-size: 150%;
 }
-.banner {
+#banner {
     font-family: Trebuchet, Helvetica;
     padding-left: 5%; 
     padding-right: 5%; 
     padding-top: 10%;
     text-align: right;
 }
-.name {
+#name {
     font-size: 450%;
     font-weight: bold;
     color: black;
 }   
-.subname {
+#subname {
     font-style: italic;
     padding-bottom: 5%;
     font-size: 180%;
     color: #9484a5;
+}
+#menu {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    background-color: black;
+    color: white;
+    font-size: 120%;
+    text-align: right;
+}
+.menubutton {
+    color: #9484a5;
+}
+.menubutton:hover {
+    color: white;
+    cursor: pointer;
 }
 hr {
     border: none;
@@ -47,6 +64,7 @@ hr {
 /*Link Styles*/
 a:link {
     color: #9484a5;
+    text-decoration: none;
 }
 a:hover {
     color: #333845;
