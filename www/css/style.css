@@ -13,24 +13,30 @@ body {
     padding-right: 5%; 
     padding-left: 5%;
     padding-bottom: 7%;
-
 }
 /*Main Text Style*/
-div.main_text {
+.main_text {
     text-align: left;
     font-size: 150%;
 }
-h1.name {
+.banner {
     font-family: Trebuchet, Helvetica;
-    padding-top: 3%;
     padding-left: 5%; 
     padding-right: 5%; 
-
+    padding-top: 10%;
+    text-align: right;
+}
+.name {
     font-size: 450%;
     font-weight: bold;
-    text-align: right;
     color: black;
 }   
+.subname {
+    font-style: italic;
+    padding-bottom: 5%;
+    font-size: 180%;
+    color: #9484a5;
+}
 hr {
     border: none;
     background-color: black;
@@ -40,5 +46,11 @@ hr {
 
 /*Link Styles*/
 a:link {
+    color: #9484a5;
+}
+a:hover {
     color: #333845;
+}
+a:visited {
+    color: #9484a5;
 }
