@@ -1,0 +1,76 @@
+body { 
+    font-family: 'PT Sans', sans-serif;
+    color: #333845;
+    background-image:url('../imgs/debut_dark.png');
+    padding-right: 17%;
+    padding-left: 17%;
+    padding-top: 5%;
+
+}
+.boxed {
+    background-color: white;
+    border: 3px solid black;
+    padding-right: 5%; 
+    padding-left: 5%;
+    padding-bottom: 7%;
+}
+/*Main Text Style*/
+#main_text {
+    padding-top: 5%;
+    text-align: left;
+    font-size: 125%;
+}
+#banner {
+    font-family: 'Copse', Trebuchet, Helvetica, sans-serif;
+    padding-left: 5%; 
+    padding-right: 5%; 
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: right;
+}
+#name {
+    font-size: 400%;
+    font-weight: bold;
+    color: black;
+}   
+#subname {
+    font-style: italic;
+    font-size: 145%;
+    color: #9484a5;
+}
+#menu {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    background-color: black;
+    color: white;
+    font-size: 120%;
+    text-align: right;
+}
+.menubutton {
+    padding-left: 1%;
+    padding-right: .5%;
+    color: #9484a5;
+}
+.menubutton:hover {
+    color: white;
+    cursor: pointer;
+}
+hr {
+    border: none;
+    background-color: black;
+    color: black;
+    height: 3px;
+}
+
+/*Link Styles*/
+a:link {
+    color: #9484a5;
+    text-decoration: none;
+}
+a:hover {
+    color: #333845;
+}
+a:visited {
+    color: #9484a5;
+}

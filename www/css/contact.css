@@ -1,11 +1,9 @@
 #facewrapper {
-  padding-left: 10%;
+  padding-left: 18%;
+  padding-right: 8%;
   float: left;
 }
 #face {
   border-style: solid;
   border-color: black;
-}
-#contacttext {
-  float: right;
 }
