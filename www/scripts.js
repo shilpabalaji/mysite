@@ -9,7 +9,7 @@ function aboutclick() {
   console.log("about clicked");
   var text = document.getElementById("main_text");
   text.innerHTML = 
-    "I just graduated from <a href = 'http://www.cmu.edu'>Carnegie Mellon University</a> with a degree in Computer Science. Pretty soon I'll be working as a Forward Deployed Engineer at <a href='http://www.palantir.com'>Palantir Technologies</a>. Until then, I'm spending a few months up in glorious Seward, Alaska."
+    "I just graduated from <a href = 'http://www.cmu.edu'>Carnegie Mellon University</a> with a degree in Computer Science. Pretty soon I'll be working as a Forward Deployed Engineer at <a href='http://www.palantir.com'>Palantir Technologies</a>. Until then, I'm spending a few months up in the glorious little town of <a href='http://en.wikipedia.org/wiki/Seward,_Alaska'>Seward, Alaska</a>."
 }
 
 function contactclick() {

@@ -24,18 +24,18 @@ body {
     font-family: 'Copse', Trebuchet, Helvetica, sans-serif;
     padding-left: 5%; 
     padding-right: 5%; 
-    padding-top: 10%;
+    padding-top: 7%;
     padding-bottom: 5%;
     text-align: right;
 }
 #name {
-    font-size: 400%;
+    font-size: 380%;
     font-weight: bold;
     color: black;
 }   
 #subname {
     font-style: italic;
-    font-size: 145%;
+    font-size: 135%;
     color: #9484a5;
 }
 #menu {
