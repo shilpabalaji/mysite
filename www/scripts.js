@@ -16,7 +16,7 @@ function contactclick() {
   console.log("about clicked");
   var text = document.getElementById("main_text");
   text.innerHTML = 
-    "<div><div id='facewrapper'> <img id='face' height=200 width=230 src='./imgs/face.jpg'></div><div id='contacttext'>shilpa@shilpabalaji.com<br>(925) 577-8184<br><br>" +
+    "<div><div id='facewrapper'> <img id='face' height=200 width=200 src='./imgs/circle_face.gif'></div><div id='contacttext'>shilpa@shilpabalaji.com<br>(925) 577-8184<br><br>" +
     "<a href='http://www.facebook.com/shilpabalaji'>facebook</a><br>" +
     "<a href='http://www.quora.com/Shilpa-Balaji'>quora</a><br>" +
     "<a href='https://twitter.com/shilpabalaji'>twitter</a><br>" +

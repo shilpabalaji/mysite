@@ -64,13 +64,10 @@ hr {
 }
 
 /*Link Styles*/
-a:link {
+a {
     color: #9484a5;
     text-decoration: none;
 }
 a:hover {
     color: #333845;
-}
-a:visited {
-    color: #9484a5;
 }

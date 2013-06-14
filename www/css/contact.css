@@ -1,9 +1,5 @@
 #facewrapper {
   padding-left: 18%;
-  padding-right: 8%;
+  padding-right: 10%;
   float: left;
-}
-#face {
-  border-style: solid;
-  border-color: black;
 }
