@@ -1,9 +1,9 @@
 body { 
-    font-family: Trebuchet, Verdana, Helvetica, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: #333845;
     background-image:url('../imgs/debut_dark.png');
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 17%;
+    padding-left: 17%;
     padding-top: 5%;
 
 }
@@ -18,24 +18,24 @@ body {
 #main_text {
     padding-top: 5%;
     text-align: left;
-    font-size: 150%;
+    font-size: 125%;
 }
 #banner {
-    font-family: Trebuchet, Helvetica;
+    font-family: 'Copse', Trebuchet, Helvetica, sans-serif;
     padding-left: 5%; 
     padding-right: 5%; 
     padding-top: 10%;
+    padding-bottom: 5%;
     text-align: right;
 }
 #name {
-    font-size: 450%;
+    font-size: 400%;
     font-weight: bold;
     color: black;
 }   
 #subname {
     font-style: italic;
-    padding-bottom: 5%;
-    font-size: 180%;
+    font-size: 145%;
     color: #9484a5;
 }
 #menu {
@@ -48,6 +48,8 @@ body {
     text-align: right;
 }
 .menubutton {
+    padding-left: 1%;
+    padding-right: .5%;
     color: #9484a5;
 }
 .menubutton:hover {
