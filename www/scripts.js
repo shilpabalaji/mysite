@@ -13,17 +13,17 @@ function aboutclick() {
 }
 
 function contactclick() {
-  console.log("about clicked");
+  console.log("contact clicked");
   var text = document.getElementById("main_text");
   text.innerHTML = 
-    "<div><div id='facewrapper'> <img id='face' height=200 width=200 src='./imgs/circle_face.gif'></div><div id='contacttext'>shilpa@shilpabalaji.com<br>(925) 577-8184<br><br>" +
+    "<div id='facewrapper'> <img id='face' height=200 width=200 src='./imgs/circle_face.gif'></div><div id='contacttext'>shilpa@shilpabalaji.com<br>(925) 577-8184<br><br>" +
     "<a href='http://www.facebook.com/shilpabalaji'>facebook</a><br>" +
     "<a href='http://www.quora.com/Shilpa-Balaji'>quora</a><br>" +
     "<a href='https://twitter.com/shilpabalaji'>twitter</a><br>" +
     "<a href='http://www.linkedin.com/in/shilpabalaji'>linkedin</a><br>" +
-    "<a href='https://github.com/shilpabalaji'>github</a>" +
-    "</div></div>"
+    "<a href='https://github.com/shilpabalaji'>github</a>"
     ;
+  console.log(text.innerHTML);
 
 }
 
