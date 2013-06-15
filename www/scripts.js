@@ -17,11 +17,11 @@ function contactclick() {
   var text = document.getElementById("main_text");
   text.innerHTML = 
     "<div id='facewrapper'> <img id='face' height=200 width=200 src='./imgs/circle_face.gif'></div><div id='contacttext'>shilpa@shilpabalaji.com<br>(925) 577-8184<br><br>" +
-    "<a href='http://www.facebook.com/shilpabalaji'>facebook</a><br>" +
-    "<a href='http://www.quora.com/Shilpa-Balaji'>quora</a><br>" +
-    "<a href='https://twitter.com/shilpabalaji'>twitter</a><br>" +
-    "<a href='http://www.linkedin.com/in/shilpabalaji'>linkedin</a><br>" +
-    "<a href='https://github.com/shilpabalaji'>github</a>"
+    "<a target='_blank' href='http://www.facebook.com/shilpabalaji'>facebook</a><br>" +
+    "<a target='_blank' href='http://www.quora.com/Shilpa-Balaji'>quora</a><br>" +
+    "<a target='_blank' href='https://twitter.com/shilpabalaji'>twitter</a><br>" +
+    "<a target='_blank' href='http://www.linkedin.com/in/shilpabalaji'>linkedin</a><br>" +
+    "<a target='_blank' href='https://github.com/shilpabalaji'>github</a>"
     ;
   console.log(text.innerHTML);
 
