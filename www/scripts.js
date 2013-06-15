@@ -1,17 +1,5 @@
 // lower menu buttons
 
-function resumeclick() {
-  console.log("resume clicked");
-  window.location = "/resume.pdf";
-}
-
-function aboutclick() {
-  console.log("about clicked");
-  var text = document.getElementById("main_text");
-  text.innerHTML = 
-    "I just graduated from <a target='_blank' href = 'http://www.cmu.edu'>Carnegie Mellon University</a> with a degree in Computer Science. Pretty soon I'll be working as a Forward Deployed Engineer at <a target='_blank' href='http://www.palantir.com'>Palantir Technologies</a>. Until then, I'm spending a few months up in the glorious little town of <a target='_blank' href='http://en.wikipedia.org/wiki/Seward,_Alaska'>Seward, Alaska</a>."
-}
-
 function contactclick() {
   console.log("contact clicked");
   var text = document.getElementById("main_text");
@@ -23,13 +11,22 @@ function contactclick() {
     "<a target='_blank' href='http://www.linkedin.com/in/shilpabalaji'>linkedin</a><br>" +
     "<a target='_blank' href='https://github.com/shilpabalaji'>github</a>"
     ;
-  console.log(text.innerHTML);
-
 }
 
-function homeclick() {
-  console.log("home clicked");
+function aboutclick() {
+  console.log("about clicked");
   var text = document.getElementById("main_text");
-  text.innerHTML = ""
+  text.innerHTML = 
+    "I just graduated from <a target='_blank' href = 'http://www.cmu.edu'>Carnegie Mellon University</a> with a degree in Computer Science. Pretty soon I'll be working as a Forward Deployed Engineer at <a target='_blank' href='http://www.palantir.com'>Palantir Technologies</a>. Until then, I'm spending a few months up in the glorious little town of <a target='_blank' href='http://en.wikipedia.org/wiki/Seward,_Alaska'>Seward, Alaska</a>."
+}
 
+function resumeclick() {
+  console.log("resume clicked");
+  window.location = "/resume.pdf";
+}
+
+function workclick() {
+  console.log("work clicked");
+  var text = document.getElementById("main_text");
+  text.innerHTML = "A work in progress...";
 }

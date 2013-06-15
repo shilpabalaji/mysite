@@ -12,30 +12,30 @@ body {
     border: 3px solid black;
     padding-right: 5%; 
     padding-left: 5%;
-    padding-bottom: 7%;
 }
 /*Main Text Style*/
 #main_text {
-    padding-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 7%;
     text-align: left;
     font-size: 125%;
 }
 #banner {
     font-family: 'Copse', Trebuchet, Helvetica, sans-serif;
     padding-left: 5%; 
-    padding-right: 5%; 
+    padding-right: 3%; 
     padding-top: 7%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     text-align: right;
 }
 #name {
-    font-size: 380%;
+    font-size: 370%;
     font-weight: bold;
     color: black;
 }   
 #subname {
     font-style: italic;
-    font-size: 135%;
+    font-size: 130%;
     color: #9484a5;
 }
 #menu {
